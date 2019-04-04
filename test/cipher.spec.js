@@ -6,6 +6,7 @@ describe('cipher', () => {
 
   describe('cipher.encode', () => {
 
+    
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
