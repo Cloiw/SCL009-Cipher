@@ -2,51 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cifradito</title>
+    <title>MENSAJES DE OTRO MUNDO</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet">
+
+
   </head>
   <body>
         <div id="content"> 
         <header>
-          <h1>CIFRADO</h1>
+          <h1>AlienMSN</h1>
         </header>
         <section id="welcomeText" class="top">
-          <p>Bienvenido a blabla, aqui podras blabla y enviar mensajes blabla para blabla</p>
+          <p><br>Bienvenido <br> Crea o traduce mensajes de otro mundo!</p>
         </section>
-        <section id="selectOff" class="top2">
-          <p> Selecciona una clave <br>(deberas usar esta clave para luego descifrar tu msj) </p>
+        <div id="selectOff" class="top2">
+          <p id="instTextA"> ¿De donde te gustaria que provenga tu mensaje?  <br> </p>
+          <p id="instTextB"> ¿De que parte del universo viene el mensaje? <br> </p>
       <select id="userOffset">
-        <option value="0">Selecciona</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="33">33</option>
+        <option value="0">La Tierra</option>
+        <option value="1">Cinturón de Kuiper</option>
+        <option value="2">Marte</option>
+        <option value="3">Neptuno</option>
+        <option value="4">Júpiter</option>
+        <option value="12">Andrómeda I</option>
+        <option value="6">Plutón</option>
+        <option value="7">Mercurio</option>
+        <option value="22">La Luna</option>
+        <option value="8">Venus</option>
+        <option value="33">Urano</option>
+        <option value="15">Saturno</option>
       </select>
-      </section>
+        </div>
       <div id="options" class="bot">
-        <p>Selecciona una opcion</p>
-        <button id= "codeButton" class="buttonA">Cifrar</button>
-        <button id= "decodeButton" class="buttonA">Descifrar</button>
+        <p id=instSelect><br>Selecciona una opción</p>
+        <button id= "codeButton" class="buttonA">Crear Mensaje</button>
+        <button id= "decodeButton" class="buttonA">Traducir Mensaje</button>
       </div>
      <div id="textAreaEncode" class="bot2">
-      <textarea id="textCode" placeholder="Escribe tu mensaje aquí" rows="6" cols="80"></textarea>
-      <button class="buttonA" id="codeTextButton">Cifrar</button>
-      <textarea id="textCodeResult" placeholder="Tu mensaje aparecera aqui" rows="6" cols="80" readonly></textarea>
+      <textarea id="textCode" placeholder="Escribe tu mensaje aquí" rows="4" cols="55"></textarea>
+      <button class="buttonA" id="codeTextButton">Crear</button>
+      <textarea id="textCodeResult" placeholder="Tu mensaje aparecera aqui" rows="4" cols="55" readonly></textarea>
       <button id= "backButton" class="buttonA">Volver</button>
      </div>
      <div id= "textAreaDecode" class="bot2" >
-    <textarea id="textDecode" placeholder="Escribe tu mensaje aquí" rows="6" cols="80"></textarea>
-    <button class="buttonA" id="decodeTextButton">Descifrar</button>
-    <textarea id="textDecodeResult" placeholder="Tu mensaje aparecera aqui" rows="6" cols="80" readonly></textarea>
+    <textarea id="textDecode" placeholder="Escribe tu mensaje aquí" rows="4" cols="55"></textarea>
+    <button class="buttonA" id="decodeTextButton">Traducir</button>
+    <textarea id="textDecodeResult" placeholder="Tu mensaje aparecera aqui" rows="4" cols="55" readonly></textarea>
     <button id= "backButtonB" class="buttonA">Volver</button>
   </div>    
      <footer>
-        <p id="pfooter">un footer opdas</p>
+        <p id="pfooter">m e n s a j i t o s  a n c e s t r a l e s p a r a t o d o s</p>
      </footer>
     </div>
     <script src="cipher.js"></script>
