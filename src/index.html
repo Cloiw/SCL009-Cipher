@@ -14,14 +14,14 @@
   <body>
         <div id="content"> 
         <header>
-          <h1>AlienMSN</h1>
+          <h1>AlienSMS</h1>
         </header>
         <section id="welcomeText" class="top">
           <p><br>Bienvenido <br> Crea o traduce mensajes de otro mundo!</p>
         </section>
         <div id="selectOff" class="top2">
           <p id="instTextA"> ¿De donde te gustaria que provenga tu mensaje?  <br> </p>
-          <p id="instTextB"> ¿De que parte del universo viene el mensaje? <br> </p>
+          <p id="instTextB"> ¿De que parte del universo proviene el mensaje? <br> </p>
       <select id="userOffset">
         <option value="0">La Tierra</option>
         <option value="1">Cinturón de Kuiper</option>
@@ -38,21 +38,22 @@
       </select>
         </div>
       <div id="options" class="bot">
-        <p id=instSelect><br>Selecciona una opción</p>
-        <button id= "codeButton" class="buttonA">Crear Mensaje</button>
-        <button id= "decodeButton" class="buttonA">Traducir Mensaje</button>
+        <p id="instSelect"><br>Crea tu propio mensaje y envialo a tus amigos</p>
+        <button id= "codeButton" class="buttonA">CREAR NUEVO MENSAJE</button>
+        <p id="instSelectSec"><br><br><br>Traduce el mensaje que recibiste</p>
+        <br><button id= "decodeButton" class="buttonA">TRADUCIR MENSAJE RECIBIDO</button>
       </div>
      <div id="textAreaEncode" class="bot2">
-      <textarea id="textCode" placeholder="Escribe tu mensaje aquí" rows="4" cols="55"></textarea>
+      <textarea id="textCode" placeholder="Escribe tu mensaje aquí" rows="4" cols="40"></textarea>
       <button class="buttonA" id="codeTextButton">Crear</button>
-      <textarea id="textCodeResult" placeholder="Tu mensaje aparecera aqui" rows="4" cols="55" readonly></textarea>
-      <button id= "backButton" class="buttonA">Volver</button>
+      <textarea id="textCodeResult" placeholder="Tu mensaje aparecera aquí" rows="4" cols="40" readonly></textarea>
+      <br><button id= "backButton" class="buttonA">Volver</button>
      </div>
      <div id= "textAreaDecode" class="bot2" >
-    <textarea id="textDecode" placeholder="Escribe tu mensaje aquí" rows="4" cols="55"></textarea>
+    <textarea id="textDecode" placeholder="Escribe tu mensaje aquí" rows="4" cols="40"></textarea>
     <button class="buttonA" id="decodeTextButton">Traducir</button>
-    <textarea id="textDecodeResult" placeholder="Tu mensaje aparecera aqui" rows="4" cols="55" readonly></textarea>
-    <button id= "backButtonB" class="buttonA">Volver</button>
+    <textarea id="textDecodeResult" placeholder="Tu mensaje aparecera aqui" rows="4" cols="40" readonly></textarea>
+    <br><button id= "backButtonB" class="buttonA">Volver</button>
   </div>    
      <footer>
         <p id="pfooter">m e n s a j i t o s  a n c e s t r a l e s p a r a t o d o s</p>

@@ -12,7 +12,7 @@
     letter-spacing: 2px;
 
   }
-  #instSelect{
+  #instSelect,#instSelectSec{
     color: #8b66d1;
     text-shadow: -2px -2px 1px black;
     font-size: 20px; 
@@ -57,11 +57,11 @@
   
   .bot{
     background:#1c1c1e;
-    height: 200px;
+    height: 450px;
   }
   .bot2{
     background:#1c1c1e;
-    height: 450px;
+    height: 480px;
     opacity: 0.8;
     
   }
