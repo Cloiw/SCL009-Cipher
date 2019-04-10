@@ -108,3 +108,9 @@ Finalmente se definio por completo la tematica de la app 'Crear mensajes de otro
 *Pasó de ser un cifrado cesar a un traductor extraterrestre.*
 
 Se seleccionaron colores azules y magentas para simular la tonalidad del espacio exterior y el caracterisco verde asociado a los extraterrestres para una completa ambientacion. 
+
+### Organización
+Se utilizo Trello para planificar el proyecto, se dividió en HTML, DOM, CSS, y lógica JavaScript. 
+
+![Trello](src/img/trello.png)
+
